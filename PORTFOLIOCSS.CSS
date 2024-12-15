@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('[Your Background Image URL]') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.overlay {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+}
+header {
+    background-color: #333;
+    color: #FFA500;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #FFA500;
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    color: #FFA500;
+}
+.section {
+    margin-bottom: 40px;
+}
+.about-me, .education, .skills, .projects, .contact {
+    text-align: center;
+}
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skill {
+    background-color: #FFA500;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.link {
+    background-color: #333;
+    color: #FFA500;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.link:hover {
+    background-color: #FFA500;
+    color: white;
+}
+footer {
+    background-color: #333;
+    color: #FFA500;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
